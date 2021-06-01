@@ -1,0 +1,22 @@
+@import '../../../assets/scss/variables.scss';
+.todo-input-form {
+    width: 100%;
+    display: flex;
+    background: transparent;
+    margin-top: 20px;
+    .todo-input-form-input {
+        width: 644px;
+        height: 36px;
+        font: normal normal normal 20px/29px Noto Sans CJK JP;
+        border: 1px solid #707070;
+    }
+    .todo-input-form-action-button {
+        width: 80px;
+        height: 40px;
+        margin-left: 10px;
+        background: $app-green 0% 0% no-repeat padding-box;
+        font: normal normal normal 20px/29px Noto Sans CJK JP;
+        color: #FFFFFF;
+        border: none;
+    }
+}

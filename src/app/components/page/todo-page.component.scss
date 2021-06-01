@@ -1,0 +1,18 @@
+@import '../../../assets/scss/variables.scss';
+.page-content {
+    margin: 23px 30px 30px 30px;
+    .page-content-list-todo-items {
+        height: 335px;
+        overflow: auto;
+    }
+     ::-webkit-scrollbar {
+        width: 8px;
+        background-color: none;
+        border: none;
+        border-radius: 4px;
+    }
+     ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background: $app-gray;
+    }
+}

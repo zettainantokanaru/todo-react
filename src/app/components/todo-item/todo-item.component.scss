@@ -1,0 +1,30 @@
+@import '../../../assets/scss/variables.scss';
+.todo-item {
+    width: 100%;
+    min-height: 30px;
+    background: transparent;
+    display: flex;
+    margin-top: 30px;
+    .todo-item-task {
+        max-width: calc(100% - 100px);
+        text-align: left;
+        font: normal normal normal 20px/29px Noto Sans CJK JP;
+        letter-spacing: 0px;
+        color: #000000;
+        cursor: pointer;
+        line-height: 30px;
+        word-break: break-all;
+        &.editing {
+            color: $app-green !important;
+        }
+    }
+    .todo-item-delete-button {
+        width: 80px;
+        height: 30px;
+        margin-left: 20px;
+        background: $app-magenta 0% 0% no-repeat padding-box;
+        font: normal normal normal 20px/29px Noto Sans CJK JP;
+        color: #FFFFFF;
+        border: 1px solid #707070;
+    }
+}

@@ -1,0 +1,13 @@
+@import '../../../assets/scss/variables.scss';
+.content-title {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    .content-title-text {
+        text-align: left;
+        font: normal normal normal 30px/45px Noto Sans CJK JP;
+        letter-spacing: 0px;
+        color: $app-black;
+        line-height: 45px;
+    }
+}
